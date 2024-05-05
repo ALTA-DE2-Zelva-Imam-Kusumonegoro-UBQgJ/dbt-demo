@@ -1,0 +1,14 @@
+1.
+Data Build Tool adalah alat baris perintah untuk mengubah data di gudang data. Alur kerjanya melibatkan pendefinisian transformasi data berbasis SQL, konfigurasi model, menjalankan transformasi, pengujian kualitas data, pendokumentasian proses, penerapan ke produksi, dan mendukung pembangunan bertahap.
+
+2.
+
+Standardisasi: DBT mempromosikan standarisasi proses transformasi data dan praktik pengkodean.
+Otomatisasi: DBT mengotomatiskan berbagai aspek alur kerja transformasi data, termasuk manajemen ketergantungan, eksekusi, pengujian, dan pembuatan dokumentasi.
+Pengujian Data: DBT memungkinkan pembuatan pengujian untuk memvalidasi keluaran transformasi data, memastikan kualitas, konsistensi, dan akurasi data. 
+
+3.
+
+Dependency Tree (Pohon Ketergantungan): DBT menggunakan pohon ketergantungan untuk menentukan urutan eksekusi model transformasi data, memastikan bahwa transformasi dieksekusi dengan benar sesuai dengan ketergantungan antar model.
+
+Versioning (Pembuatan Versi): DBT memungkinkan pengguna untuk melacak perubahan pada transformasi data menggunakan sistem kontrol versi, memfasilitasi kolaborasi tim, identifikasi perubahan, dan pengembalian ke versi sebelumnya jika diperlukan.
