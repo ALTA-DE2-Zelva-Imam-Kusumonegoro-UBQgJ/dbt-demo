@@ -37,10 +37,10 @@ b_name AS(
 )
 SELECT
     base.order_date,
-    SUM(base.quantity) AS qty_sold,
-    SUM(base.quantity * base.price) AS revenue,
     p_name.product_name,
-    b_name.brand_name
+    b_name.brand_name,
+    SUM(base.quantity) AS qty_sold,
+    SUM(base.quantity * base.price) AS revenue
 FROM
     base
 LEFT JOIN
